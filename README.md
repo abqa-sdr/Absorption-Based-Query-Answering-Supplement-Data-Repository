@@ -3,7 +3,7 @@ Absorption-Based Query Answering Supplement Data Repository
 
 ## Documentation
 
-The available [technical report](https://www.dropbox.com/s/3ljz6qytt81wid7/ABQA-Technical-Report.pdf?dl=1 "Technical Report") describes many details of the absorption-based query answering (ABQA) technique and the integration in the reasoning system Konclude.
+The available [technical report](https://www.dropbox.com/s/yx6d6c2dxk20p3g/ABQA-Technical-Report-R2.pdf?dl=1 "Updated Technical Report") (updated) describes many details of the absorption-based query answering (ABQA) technique and the integration in the reasoning system Konclude.
 
 ## Source Code
 
