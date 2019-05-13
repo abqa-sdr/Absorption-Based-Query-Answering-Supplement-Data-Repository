@@ -27,6 +27,16 @@ qmake -r CONFIG+=release CONFIG+=x86_64 CONFIG-=debug CONFIG+=static -spec /data
 make -j
 ```
 
+A static version of Qt can be obtained as follows:
+```
+wget http://download.qt.io/official_releases/qt/5.10/5.10.1/single/qt-everywhere-src-5.10.1.tar.xz
+tar -xJf qt-everywhere-src-5.10.1.tar.xz
+cd qt-everywhere-src-5.10.1
+./configure -static -prefix /data/Qt/Qt-5.10.1-static -extprefix /data/Qt/Qt-5.10.1-static -no-opengl -nomake examples -nomake tests -opensource -platform linux-g++-64 -no-icu
+make -j
+make install
+```
+
 ## Evaluation Framework and Data
 
 The evaluation framework and data can be downloaded at [https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1](https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1 "Evaluation Framework and Data: https://www.dropbox.com/s/5k941cazomjvpef/ABQA-Evaluation-Framework.tgz?dl=1") (updated for removing icu dependency) and includes the following data:
