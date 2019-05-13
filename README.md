@@ -39,7 +39,7 @@ make install
 
 ## Evaluation Framework and Data
 
-The evaluation framework and data can be downloaded at [https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1](https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1 "Evaluation Framework and Data: https://www.dropbox.com/s/5k941cazomjvpef/ABQA-Evaluation-Framework.tgz?dl=1") (updated for removing icu dependency) and includes the following data:
+The evaluation framework and data can be downloaded at [https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1](https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1 "Evaluation Framework and Data: https://www.dropbox.com/s/mpd3knqhknxzeyr/ABQA-Evaluation-Framework-icu-fix.tgz?dl=1") (updated for removing icu dependency) and includes the following data:
 * Linux 64bit binaries for all evaluated reasoners
 * the evaluated ontologies (in OWL2/XML and RDF Turtle files) and queries (in SPARQL syntax)
 * an evaluator program that is capable of conducting the evaluations
